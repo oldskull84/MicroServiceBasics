@@ -4966,6 +4966,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MongoDb.Bson >= 2.11.5",
       "MongoDb.Driver >= 2.11.5",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -5017,6 +5018,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "MongoDb.Bson": {
+            "target": "Package",
+            "version": "[2.11.5, )"
+          },
           "MongoDb.Driver": {
             "target": "Package",
             "version": "[2.11.5, )"

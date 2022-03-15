@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Play.Catalog.Service/1.0.0": {
         "dependencies": {
+          "MongoDB.Bson": "2.11.5",
           "MongoDB.Driver": "2.11.5",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
