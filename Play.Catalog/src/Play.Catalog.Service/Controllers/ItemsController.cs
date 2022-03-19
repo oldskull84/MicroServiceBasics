@@ -52,7 +52,7 @@ namespace Play.Catalog.Service.Controllers
 
             var items = (await itemsRepository.GetAllAsync())
             .Select(item => item.AsDto());
-            Console.WriteLine($"Request {requestCounter}: 200 (OK).");
+            // Console.WriteLine($"Request {requestCounter}: 200 (OK).");
             return Ok(items);
         }
 
@@ -101,7 +101,7 @@ namespace Play.Catalog.Service.Controllers
 
             await itemsRepository.UpdateAsync(existingItem);
             
-            await publishEndpoint.Publish(new CatalogItemCreated(existingItem.Id, existingItem.Name, existingItem.Description));
+            await publishEndpoint.Publish(new CatalogItemUpdated(existingItem.Id, existingItem.Name, existingItem.Description));
 
             return NoContent();
         }

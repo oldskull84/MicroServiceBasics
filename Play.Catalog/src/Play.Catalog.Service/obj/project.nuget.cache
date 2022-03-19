@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d+ttBiAIeuFiDabdm2231cbrUZquX8q56LSZBAYQq4nZlHuocCfsvl76Vl6UR2PigiMZYuOvhpVZI03X7P/oFw==",
+  "dgSpecHash": "vZUfT97x/M6cdzaUx/+unqYwR8r0duvfWS9ToLiHEak25yu/RsMHUbT45q0faez+jNefU7PdC9+PkQwuykN9Kw==",
   "success": true,
   "projectFilePath": "C:\\Git\\Learn\\MicroServices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,6 @@
     "C:\\Users\\vitait\\.nuget\\packages\\newid\\3.0.3\\newid.3.0.3.nupkg.sha512",
     "C:\\Users\\vitait\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\vitait\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\vitait\\.nuget\\packages\\play.common\\1.0.0\\play.common.1.0.0.nupkg.sha512",
     "C:\\Users\\vitait\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\vitait\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\vitait\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
@@ -52,7 +51,8 @@
     "C:\\Users\\vitait\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\vitait\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Users\\vitait\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
-    "C:\\Users\\vitait\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "C:\\Users\\vitait\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\vitait\\.nuget\\packages\\play.common\\1.0.0\\play.common.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
