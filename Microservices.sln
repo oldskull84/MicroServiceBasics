@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Catalog.Service", "Pla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Inventory.Services", "Play.Inventory\src\Play.Inventory.Services\Play.Inventory.Services.csproj", "{6148211A-6A60-4703-9EC1-ECA337E24976}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Catalog.Contracts", "Play.Catalog\src\Play.Catalog.Contracts\Play.Catalog.Contracts.csproj", "{772708D0-0862-4854-A277-B4001CA3197A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{6148211A-6A60-4703-9EC1-ECA337E24976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6148211A-6A60-4703-9EC1-ECA337E24976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6148211A-6A60-4703-9EC1-ECA337E24976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772708D0-0862-4854-A277-B4001CA3197A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772708D0-0862-4854-A277-B4001CA3197A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772708D0-0862-4854-A277-B4001CA3197A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772708D0-0862-4854-A277-B4001CA3197A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
