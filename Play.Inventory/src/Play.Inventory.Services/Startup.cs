@@ -23,9 +23,13 @@ namespace Play.Inventory.Services
 {
     public class Startup
     {
+        private const string AllowedOriginSetting = "AllowedOrigin";
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            int i = 21;
+            var intRev = int.Parse(new string(i.ToString().ToCharArray().Reverse().ToArray()));
         }
 
         public IConfiguration Configuration { get; }
@@ -55,6 +59,13 @@ namespace Play.Inventory.Services
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Play.Inventory.Services v1"));
+                
+                app.UseCors(builder =>
+                {
+                    builder.WithOrigins(Configuration[AllowedOriginSetting])
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
             }
 
             app.UseHttpsRedirection();
